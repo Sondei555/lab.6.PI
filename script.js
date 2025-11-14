@@ -1,6 +1,6 @@
 //   Завдання 1 — Розбір e-mail
 
-let s = "dwbyu@mail.ua";
+let s = "volodymyr.sondei.24@pnu.edu.ua";
 let r = /^([a-z0-9]+)(\.[a-z0-9]+)*@([a-z0-9]+)(\.[a-z0-9]+)*$/i;
 let a = s.match(r);
 
@@ -60,3 +60,4 @@ function checkField(field, regex, errorText, messageId) {
         msg.textContent = errorText;
     }
 }
+
