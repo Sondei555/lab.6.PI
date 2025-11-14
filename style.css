@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.field-block {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+input {
+    padding: 6px;
+    width: 280px;
+    border: 2px solid #888;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.ok {
+    border-color: green;
+    color: green;
+}
+
+.error {
+    border-color: red;
+    color: red;
+}
+
+.msg {
+    position: absolute;
+    left: 300px;
+    top: 5px;
+    font-size: 14px;
+    color: red;
+}
+
+.okmsg {
+    color: green;
+}
+
+hr {
+    margin-top: 3px;
+}

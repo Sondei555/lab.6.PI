@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна робота — 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Завдання 1 — Розбір e-mail</h2>
+
+<div id="emailTaskOutput"></div>
+
+<hr><hr>
+
+<h2>Завдання 2 — Форма + Валідація</h2>
+
+<div class="field-block">
+    Email:
+    <input type="text" id="email">
+    <span class="msg" id="msg_email"></span>
+</div>
+
+<div class="field-block">
+    Ім’я та прізвище:
+    <input type="text" id="fio">
+    <span class="msg" id="msg_fio"></span>
+</div>
+
+<div class="field-block">
+    Логін:
+    <input type="text" id="login">
+    <span class="msg" id="msg_login"></span>
+</div>
+
+<div class="field-block">
+    Пароль:
+    <input type="password" id="pass">
+    <span class="msg" id="msg_pass"></span>
+</div>
+
+<div class="field-block">
+    Поштовий індекс:
+    <input type="text" id="index">
+    <span class="msg" id="msg_index"></span>
+</div>
+
+<button onclick="validateForm()">Перевірити</button>
+
+<script src="script.js"></script>
+</body>
+</html>
